@@ -1,8 +1,8 @@
 # cz-ckl-jira-smart-commit
 
-A commitizen adapter for [Jira smart commits](https://confluence.atlassian.com/display/FISHEYE/Using+smart+commits).
+A commitizen adapter for [Jira Smart Commits](https://confluence.atlassian.com/display/FISHEYE/Using+smart+commits).
 
-![Screenshot](other/screenshot.png)
+![Screenshot](docs/screenshot.png)
 
 ## Usage
 
@@ -37,7 +37,6 @@ For usage you can:
 
 ```json
 {
-  /* ... */
   "config": {
     "commitizen": {
       "path": "./node_modules/@cheesecakelabs/cz-ckl-jira-smart-commit/"
