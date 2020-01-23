@@ -1,5 +1,5 @@
 {
-  "name": "cz-jira-smart-commit",
+  "name": "cz-ckl-jira-smart-commit",
   "version": "2.0.1",
   "description": "A commitizen adapter for Jira smart commits",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/commitizen/cz-jira-smart-commit.git"
+    "url": "git+https://github.com/CheesecakeLabs/cz-ckl-jira-smart-commit.git"
   },
   "keywords": [
     "commitizen",
@@ -20,15 +20,15 @@
     "jira",
     "jira smart commit"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Cheesecake Labs (https://ckl.io/)",
   "contributors": [
-    "Jane Kim <jane@janekim.me> (http://janekim.me)"
+    "Helder Burato Berto <helder@ckl.io>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/commitizen/cz-jira-smart-commit/issues"
+    "url": "https://github.com/CheesecakeLabs/cz-ckl-jira-smart-commit/issues"
   },
-  "homepage": "https://github.com/commitizen/cz-jira-smart-commit#readme",
+  "homepage": "https://github.com/CheesecakeLabs/cz-ckl-jira-smart-commit#readme",
   "devDependencies": {
     "babel": "5.8.21",
     "chai": "3.2.0",
