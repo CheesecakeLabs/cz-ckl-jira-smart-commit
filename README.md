@@ -21,20 +21,35 @@ chmod +x install.sh
 Install this adapter
 
 ```
-npm install cz-ckl-jira-smart-commit
+npm install @cheesecakelabs/cz-ckl-jira-smart-commit
 ```
 
-Reference it in your `.cz.json` of your project
+For usage you can:
+
+- Reference it in your `.cz.json` of your project
 
 ```json
 {
-  "path": "node_modules/cz-ckl-jira-smart-commit/"
+  "path": "node_modules/@cheesecakelabs/cz-ckl-jira-smart-commit/"
+}
+```
+- Add config inside your `package.json`
+
+```json
+{
+  /* ... */
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@cheesecakelabs/cz-ckl-jira-smart-commit/"
+    }
+  }
 }
 ```
 
-or use commitizen to init
+- Use commitizen to init
+
 ```
-commitizen init cz-ckl-jira-smart-commit
+commitizen init @cheesecakelabs/cz-ckl-jira-smart-commit
 ```
 
 ### Day to day work

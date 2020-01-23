@@ -1,7 +1,7 @@
 {
-  "name": "cz-ckl-jira-smart-commit",
-  "version": "2.0.1",
-  "description": "A commitizen adapter for Jira smart commits",
+  "name": "@cheesecakelabs/cz-ckl-jira-smart-commit",
+  "version": "1.0.0",
+  "description": "The CheesecakeLabs commitizen adapter for Jira Smart Commits",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec \"npm run test\"",
@@ -22,7 +22,8 @@
   ],
   "author": "Cheesecake Labs (https://ckl.io/)",
   "contributors": [
-    "Helder Burato Berto <helder@ckl.io>"
+    "Helder Burato Berto <helder@ckl.io>",
+    "Ilê Caian <ile@ckl.io>"
   ],
   "license": "MIT",
   "bugs": {
